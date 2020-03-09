@@ -10,7 +10,7 @@ require("./_logBookmarklet")(() => {
     document,
     null,
     "UNIQUE_ID",
-    "meta-dark",
-    "body { filter: invert(0.8) hue-rotate(180deg); }"
+    "meta-darkblack",
+    "body { background-color: #333; filter: invert(0.8) hue-rotate(180deg); }"
   );
 });

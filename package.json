@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "copy": "bash -c 's=`node $1.js` && pbcopy <<<$s && echo \"Copied script to clipboard:\n$s\n\"' --",
+    "prettier:check": "prettier --check '**/*.js'",
+    "prettier:write": "prettier --write '**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
